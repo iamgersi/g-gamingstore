@@ -1,0 +1,40 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+
+
+CREATE TABLE `blog` (
+  `item_id` int(11) NOT NULL,
+  `item_name` varchar(255) NOT NULL,
+  `item_image` varchar(255) NOT NULL,
+  `item_description` text(1000) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `blog`
+--
+
+INSERT INTO `blog` (`item_id`, `item_name`, `item_image`, `item_description`) VALUES
+(1, 'Nje PS5 2TB behet leak me nje cmim te cmendur', './assets/blog/blog1.jpg', 'PS5 dhe Xbox Series X po sjellin goxha per gjeneraten e ardhshme te videolojrave konsole me arkitekturen me te fundit GPU dhe CPU te AMD. Series X ka 2 teraflops me shume sesa PS5 por kjo e fundit do te sjelle nje SSD NVMe e cila eshte dyfish me e shpejte se e para, 3D audio dhe nje kontroller me vibrime te reja.
+Pavarsisht gjithe te mesipermeve asgje nuk e justifikon cmimin prej...'),
+(2, 'Nga neser Fortnite do te ekzistoje ne dy versione', './assets/blog/blog2.jpg', 'Pak dite me pare folem per disa iPhone te cilet shiteshin per shifra te cmendura ne eBay vetem e vetem sepse kishin akoma Fortnite te instaluara ne to, epo ata smartphone nuk kushtojne me aq shume tashme. Kjo pasi edhe nese loja vazhdon te jete aty, do te jete e izoluar nga gjithe pjesa tjeter e lojes.
+Ngjarja e pazakonte erdhi si rrjedhoje e bllokimit nga Apple...'),
+(3, 'Nintendo ka lajmeruar se do te sjelle nje Switch te ri', './assets/blog/blog3.jpg', 'Teksa dy armiqte e perbetuar Sony dhe Microsoft pergatiten per lancimin e konsoleve te tyre kete vjeshte, kundershtari i njohur per mendimin jashte kutie sjell te reja.
+Sigurisht qe e kemi fjalen per Nintendo, kompania e bazuar ne Kyoto ka lajmeruar se do te sjelle nje Switch te perditesuar ne hardware si dhe lojra te reja...'),
+(4, 'Laptopi me i fundit Gaming i Lenovo nuk peshon as 2kg', './assets/blog/blog4.jpg', 'Nese nga aventura e smartphonave nuk kemi degjuar me, ne tregun e laptopeve Lenovo vazhdon te mbaje nje pozicion te besueshem tek konsumatori.
+Si per te perforcuar pjesen e siperme kompania nga Hong Kongu sjell keto pushime Legion Slim 7i. Nje laptop gaming i cili nuk peshon me shume se...'),
+(5, 'The Witcher vjen ne version mobile AR', './assets/blog/blog5.jpg', 'Trashegimia e The Witcher do te vazhdoje te jetoje tashme ne mobile. Megjithate ne nje levizje te papritur CD Project Red ka vendosur qe kete loje ta sjelle ne versionin Augumented Reality njesoj si Pokemon Go.
+The Witcher: Monster Slayer do te jete funksionoje ne boten reale, ne bashkepunim me kameren do te shfaqe perbindshat ne momente dhe kushte te caktuara. Lojtarit do ti duhet te mesoje si te perballet me perbindshat, si te krijoje ilace te fuqishme...'),
+(6, 'Fortnite nderon Chadwick Boseman me nje statuje te Black Panther', './assets/blog/blog6.jpg', 'Pak nga pak harta e Fortnite po ndryshon me karaktere te Marvel. I rradhes ka mbi te gjitha edhe nje mesazh te forte. E vendosur pak ore me pare, statuja e Black Panther eshte vendi me i vizituar i momentit. Dhe arsyeja eshte e qarte: Ne nder te aktorit 43-vjecar Chadwick Boseman i cili humbi jeten nje jave me pare.
+Zedhenesi i Epic Games konfirmoi se...');
+
+ALTER TABLE `blog`
+  ADD PRIMARY KEY (`item_id`);
+
+
+-- --------------------------------------------------------
+ALTER TABLE `blog`
+  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;

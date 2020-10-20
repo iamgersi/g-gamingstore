@@ -1,0 +1,139 @@
+C:.
+|   cart.php
+|   filetree.doc
+|   footer.php	
+|   functions.php
+|   header.php
+|   index.js
+|   index.php
+|   product.php
+|   style.css
+|   
++---assets
+|   |   cartempty.jpg
+|   |   emptywishlist.jpg
+|   |   
+|   +---banners
+|   |       ads_banner.png
+|   |       ads_banner1.jpg
+|   |       ads_banner2.jpg
+|   |       ads_banner2.png
+|   |       banner.jpg
+|   |       gamer.jpg
+|   |       ps5.jpg
+|   |       
+|   +---blog
+|   |       blog1.jpg
+|   |       blog2.jpg
+|   |       blog3.jpg
+|   |       blog4.jpg
+|   |       blog5.jpg
+|   |       blog6.jpg
+|   |       
+|   \---products
+|       +---2020games
+|       |       fallguys.jpg
+|       |       fortnite.jpg
+|       |       hitman3.jpg
+|       |       hyperscape.jpg
+|       |       pubg.jpg
+|       |       thelastpartofus.jpeg
+|       |       valorant.jpg
+|       |       warzone.jpg
+|       |       
+|       +---chair
+|       |       razer_chair.jpg
+|       |       sharks_chair.jpg
+|       |       ttblack_chair.jpg
+|       |       
+|       +---controller
+|       |       banner.jpg
+|       |       dualshock4_controller.jpg
+|       |       mobile_controller.png
+|       |       razer_controller.jpg
+|       |       switch.jpg
+|       |       xbox_controller.jpg
+|       |       
+|       +---headset
+|       |       claw_earphones.jpg
+|       |       neonblue_headset.jpg
+|       |       plextone_headset.jpg
+|       |       razer_headset.jpg
+|       |       razer_krakenkitty_headset.jpg
+|       |       
+|       +---keyboard
+|       |       led_gamingkeyboard.jpg
+|       |       mechanical_keyboard.jpg
+|       |       mech_keyboard.png
+|       |       razer_blackwidow_keyboard.jpg
+|       |       small_keyboard.jpg
+|       |       
+|       +---laptop
+|       |       alienware_laptop.jpg
+|       |       alienware_redlaptop.jpg
+|       |       asus_laptop.jpg
+|       |       asus_laptop2.jpg
+|       |       predator_helios300_laptop.jpg
+|       |       razerblade_laptop.jpg
+|       |       razer_blade_laptop.jpg
+|       |       
+|       +---mic
+|       |       hyperx_mic.jpg
+|       |       ps4_mic.jpg
+|       |       razer_mic.jpg
+|       |       tonor_mic.jpg
+|       |       
+|       +---monitor
+|       |       alienware_monitor.jpg
+|       |       predator_monitor.jpg
+|       |       samsung_monitor.jpg
+|       |       xiaomi_monitor.jpg
+|       |       
+|       +---mouse
+|       |       alienware_mouse.jpg
+|       |       logitech_mouse.jpg
+|       |       logitech_mousepad.jpg
+|       |       mousepad.jpg
+|       |       razer_mamba_mouse.png
+|       |       
+|       +---pc
+|       |       gaming_pc.png
+|       |       gaming_pc2.jpg
+|       |       gaming_pc3.jpg
+|       |       gaming_pc4.jpg
+|       |       
+|       +---webcam
+|       |       angetube_webcam.jpg
+|       |       logitech_webcam.jpg
+|       |       razer_webcam.jpg
+|       |       
+|       \---xbox
+|               xboxseriesx.jpg
+|               
++---Database
+|       Blog.php
+|       blog.txt
+|       Cart.php
+|       DBController.php
+|       gamingstore.sql
+|       newgames.sql
+|       New_Games.php
+|       Product.php
+|       Top_Sale.php
+|       
+\---template
+    |   ajax.php
+    |   _2020-games.php
+    |   _banner-adds.php
+    |   _banner-area.php
+    |   _blog.php
+    |   _cart.php
+    |   _products.php
+    |   _special-price.php
+    |   _top-sale.php
+    |   _wishlist.php
+    |   
+    \---notFound
+            wish_not_found.php
+            _cart_not_found.php
+            

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&display=swap");
+/*Sass template*/
+/*global classes*/
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/*Typography classes*/
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00A5C4;
+}
+
+.color-second-bg {
+    background: #00A5C4;
+}
+
+.color-yellow {
+    color: #FFD289;
+}
+
+.color-yellow-bg {
+    background: #FFD289;
+}
+.color-grey{
+    color: #b6b6b6;
+}
+
+.color-grey-bg{
+    background: #b6b6b6;
+}
+
+.color-black{
+    color: #000000;
+}
+.color-black-bg{
+    background: #000000;
+}
+/*TOP-SALE Template*/
+
+.produkti{
+    overflow: hidden;
+}
+
+.saleImg{
+    transition: transform 0.3s ease-in;
+    margin:0;
+}
+
+.saleImg:hover{
+    transform: scale(1.04);
+}
+
+
+.itemProd{
+    margin: 25px;
+}
+
+
+
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+.cmimSpecial{
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#info{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Rubik",cursive;
+    font-size: 5em;
+    color: #262626;
+    background: #fff;
+    padding: 10px;
+    text-shadow: 0 2px 5px rgba(0,0,0,.5);
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+}
+
+#info:nth-child(1){
+    background: #00A5C4;
+}
+#info:nth-child(2){
+    background: #7584bb;
+}
+#info:nth-child(3){
+    background: #b34ac2;
+}
+/*# sourceMappingURL=style.css.map */
